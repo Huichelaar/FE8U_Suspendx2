@@ -1,0 +1,12 @@
+PUSH
+
+  ORG 0x896A4
+  POIN BackupGfx
+
+POP
+
+
+// BackupBox, display during SaveMenu when resuming.
+ALIGN 4
+BackupGfx:
+#incbin "BackupBox.dmp"
